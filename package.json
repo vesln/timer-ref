@@ -1,7 +1,7 @@
 {
   "name": "timer-ref",
   "description": "Save timer references to avoid interfering",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "main": "lib/timer-ref.js",
   "homepage": "https://github.com/vesln/timer-ref",
   "bugs": "https://github.com/vesln/timer-ref/issues",
