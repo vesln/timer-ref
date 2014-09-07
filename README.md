@@ -8,6 +8,20 @@ version](https://img.shields.io/npm/v/timer-ref.svg?style=flat-square)](https://
 
 ## Usage
 
+Modules like [sinon](https://github.com/cjohansen/Sinon.JS) and
+[timekeeper](https://github.com/vesln/timekeeper) can modify `Date` and timers
+which can lead to problems, if you are, for example, building a [test
+runner](https://github.com/hydrojs). This modules simply caches the original
+objects, so you can use them even after modified.
+
+In order to be effective, require this module as early as possible.
+
+- `Date`
+- `setTimeout`
+- `clearTimeout`
+- `setInterval`
+- `clearInterval`
+
 ## Tests
 
 ```
